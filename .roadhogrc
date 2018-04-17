@@ -5,7 +5,8 @@
       "extraBabelPlugins": [
         "dva-hmr",
         "transform-runtime"
-      ]
+        ["import", {"libraryName": "antd", "libraryDirectory": "es", "style": "css"}]
+      ],
     },
     "production": {
       "extraBabelPlugins": [

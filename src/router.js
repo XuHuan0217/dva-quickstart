@@ -5,7 +5,7 @@ import Products from './routes/Products';
 function RouterConfig({ history }) {
   return (
     <Router history={history}>
-      <Route path="/products" exact component={Products}/>
+      <Route path="/products" component={Products}/>
       <Route path="/" component={IndexPage} />
     </Router>
   );

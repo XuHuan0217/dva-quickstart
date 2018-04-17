@@ -15,8 +15,8 @@ const app = dva ({
 // 2. Plugins
 // app.use({});
 
-// 3. Model
-app.model(require('./models/products').default);
+// 3. Model  .default
+app.model(require('./models/products'));
 
 // 4. Router
 app.router(require('./router'));
