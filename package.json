@@ -6,6 +6,7 @@
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint"
   },
+ 
   "engines": {
     "install-node": "6.9.2"
   },
